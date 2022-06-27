@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30324B90286A317C00E2997E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B8F286A317C00E2997E /* Tests_iOS.swift */; };
+		30324B92286A317C00E2997E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B91286A317C00E2997E /* Tests_iOSLaunchTests.swift */; };
+		30324B9C286A317D00E2997E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B9B286A317D00E2997E /* Tests_macOS.swift */; };
+		30324B9E286A317D00E2997E /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B9D286A317D00E2997E /* Tests_macOSLaunchTests.swift */; };
+		30324B9F286A317D00E2997E /* vpn_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30324B74286A316B00E2997E /* vpn_project.xcdatamodeld */; };
+		30324BA0286A317D00E2997E /* vpn_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30324B74286A316B00E2997E /* vpn_project.xcdatamodeld */; };
+		30324BA1286A317D00E2997E /* vpn_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B76286A316B00E2997E /* vpn_projectApp.swift */; };
+		30324BA2286A317D00E2997E /* vpn_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B76286A316B00E2997E /* vpn_projectApp.swift */; };
+		30324BA3286A317D00E2997E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B77286A316B00E2997E /* ContentView.swift */; };
+		30324BA4286A317D00E2997E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B77286A316B00E2997E /* ContentView.swift */; };
+		30324BA5286A317D00E2997E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B78286A316B00E2997E /* Persistence.swift */; };
+		30324BA6286A317D00E2997E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30324B78286A316B00E2997E /* Persistence.swift */; };
+		30324BA7286A317D00E2997E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30324B79286A317C00E2997E /* Assets.xcassets */; };
+		30324BA8286A317D00E2997E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30324B79286A317C00E2997E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30324B8C286A317C00E2997E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30324B6F286A316900E2997E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30324B7D286A317C00E2997E;
+			remoteInfo = "vpn_project (iOS)";
+		};
+		30324B98286A317C00E2997E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30324B6F286A316900E2997E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30324B83286A317C00E2997E;
+			remoteInfo = "vpn_project (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30324B75286A316B00E2997E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		30324B76286A316B00E2997E /* vpn_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vpn_projectApp.swift; sourceTree = "<group>"; };
+		30324B77286A316B00E2997E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30324B78286A316B00E2997E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		30324B79286A317C00E2997E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30324B7E286A317C00E2997E /* vpn_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vpn_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30324B84286A317C00E2997E /* vpn_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vpn_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30324B86286A317C00E2997E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		30324B8B286A317C00E2997E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30324B8F286A317C00E2997E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		30324B91286A317C00E2997E /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		30324B97286A317C00E2997E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30324B9B286A317D00E2997E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		30324B9D286A317D00E2997E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30324B7B286A317C00E2997E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B81286A317C00E2997E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B88286A317C00E2997E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B94286A317C00E2997E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30324B6E286A316900E2997E = {
+			isa = PBXGroup;
+			children = (
+				30324B73286A316B00E2997E /* Shared */,
+				30324B85286A317C00E2997E /* macOS */,
+				30324B8E286A317C00E2997E /* Tests iOS */,
+				30324B9A286A317C00E2997E /* Tests macOS */,
+				30324B7F286A317C00E2997E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30324B73286A316B00E2997E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30324B76286A316B00E2997E /* vpn_projectApp.swift */,
+				30324B77286A316B00E2997E /* ContentView.swift */,
+				30324B78286A316B00E2997E /* Persistence.swift */,
+				30324B79286A317C00E2997E /* Assets.xcassets */,
+				30324B74286A316B00E2997E /* vpn_project.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		30324B7F286A317C00E2997E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30324B7E286A317C00E2997E /* vpn_project.app */,
+				30324B84286A317C00E2997E /* vpn_project.app */,
+				30324B8B286A317C00E2997E /* Tests iOS.xctest */,
+				30324B97286A317C00E2997E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30324B85286A317C00E2997E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				30324B86286A317C00E2997E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		30324B8E286A317C00E2997E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				30324B8F286A317C00E2997E /* Tests_iOS.swift */,
+				30324B91286A317C00E2997E /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		30324B9A286A317C00E2997E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				30324B9B286A317D00E2997E /* Tests_macOS.swift */,
+				30324B9D286A317D00E2997E /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30324B7D286A317C00E2997E /* vpn_project (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30324BAB286A317D00E2997E /* Build configuration list for PBXNativeTarget "vpn_project (iOS)" */;
+			buildPhases = (
+				30324B7A286A317C00E2997E /* Sources */,
+				30324B7B286A317C00E2997E /* Frameworks */,
+				30324B7C286A317C00E2997E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vpn_project (iOS)";
+			productName = "vpn_project (iOS)";
+			productReference = 30324B7E286A317C00E2997E /* vpn_project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30324B83286A317C00E2997E /* vpn_project (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30324BAE286A317D00E2997E /* Build configuration list for PBXNativeTarget "vpn_project (macOS)" */;
+			buildPhases = (
+				30324B80286A317C00E2997E /* Sources */,
+				30324B81286A317C00E2997E /* Frameworks */,
+				30324B82286A317C00E2997E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vpn_project (macOS)";
+			productName = "vpn_project (macOS)";
+			productReference = 30324B84286A317C00E2997E /* vpn_project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30324B8A286A317C00E2997E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30324BB1286A317D00E2997E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				30324B87286A317C00E2997E /* Sources */,
+				30324B88286A317C00E2997E /* Frameworks */,
+				30324B89286A317C00E2997E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30324B8D286A317C00E2997E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 30324B8B286A317C00E2997E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		30324B96286A317C00E2997E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30324BB4286A317D00E2997E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				30324B93286A317C00E2997E /* Sources */,
+				30324B94286A317C00E2997E /* Frameworks */,
+				30324B95286A317C00E2997E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30324B99286A317C00E2997E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 30324B97286A317C00E2997E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30324B6F286A316900E2997E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					30324B7D286A317C00E2997E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					30324B83286A317C00E2997E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					30324B8A286A317C00E2997E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 30324B7D286A317C00E2997E;
+					};
+					30324B96286A317C00E2997E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 30324B83286A317C00E2997E;
+					};
+				};
+			};
+			buildConfigurationList = 30324B72286A316900E2997E /* Build configuration list for PBXProject "vpn_project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30324B6E286A316900E2997E;
+			productRefGroup = 30324B7F286A317C00E2997E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30324B7D286A317C00E2997E /* vpn_project (iOS) */,
+				30324B83286A317C00E2997E /* vpn_project (macOS) */,
+				30324B8A286A317C00E2997E /* Tests iOS */,
+				30324B96286A317C00E2997E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30324B7C286A317C00E2997E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30324BA7286A317D00E2997E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B82286A317C00E2997E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30324BA8286A317D00E2997E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B89286A317C00E2997E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B95286A317C00E2997E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30324B7A286A317C00E2997E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30324BA1286A317D00E2997E /* vpn_projectApp.swift in Sources */,
+				30324BA5286A317D00E2997E /* Persistence.swift in Sources */,
+				30324B9F286A317D00E2997E /* vpn_project.xcdatamodeld in Sources */,
+				30324BA3286A317D00E2997E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B80286A317C00E2997E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30324BA2286A317D00E2997E /* vpn_projectApp.swift in Sources */,
+				30324BA6286A317D00E2997E /* Persistence.swift in Sources */,
+				30324BA0286A317D00E2997E /* vpn_project.xcdatamodeld in Sources */,
+				30324BA4286A317D00E2997E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B87286A317C00E2997E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30324B92286A317C00E2997E /* Tests_iOSLaunchTests.swift in Sources */,
+				30324B90286A317C00E2997E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30324B93286A317C00E2997E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30324B9E286A317D00E2997E /* Tests_macOSLaunchTests.swift in Sources */,
+				30324B9C286A317D00E2997E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30324B8D286A317C00E2997E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30324B7D286A317C00E2997E /* vpn_project (iOS) */;
+			targetProxy = 30324B8C286A317C00E2997E /* PBXContainerItemProxy */;
+		};
+		30324B99286A317C00E2997E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30324B83286A317C00E2997E /* vpn_project (macOS) */;
+			targetProxy = 30324B98286A317C00E2997E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30324BA9286A317D00E2997E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30324BAA286A317D00E2997E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		30324BAC286A317D00E2997E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.vpn-project";
+				PRODUCT_NAME = vpn_project;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30324BAD286A317D00E2997E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.vpn-project";
+				PRODUCT_NAME = vpn_project;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30324BAF286A317D00E2997E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.vpn-project";
+				PRODUCT_NAME = vpn_project;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		30324BB0286A317D00E2997E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.vpn-project";
+				PRODUCT_NAME = vpn_project;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		30324BB2286A317D00E2997E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vpn_project (iOS)";
+			};
+			name = Debug;
+		};
+		30324BB3286A317D00E2997E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vpn_project (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30324BB5286A317D00E2997E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "vpn_project (macOS)";
+			};
+			name = Debug;
+		};
+		30324BB6286A317D00E2997E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39QDFGFLCK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.majidhassani.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "vpn_project (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30324B72286A316900E2997E /* Build configuration list for PBXProject "vpn_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30324BA9286A317D00E2997E /* Debug */,
+				30324BAA286A317D00E2997E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30324BAB286A317D00E2997E /* Build configuration list for PBXNativeTarget "vpn_project (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30324BAC286A317D00E2997E /* Debug */,
+				30324BAD286A317D00E2997E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30324BAE286A317D00E2997E /* Build configuration list for PBXNativeTarget "vpn_project (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30324BAF286A317D00E2997E /* Debug */,
+				30324BB0286A317D00E2997E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30324BB1286A317D00E2997E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30324BB2286A317D00E2997E /* Debug */,
+				30324BB3286A317D00E2997E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30324BB4286A317D00E2997E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30324BB5286A317D00E2997E /* Debug */,
+				30324BB6286A317D00E2997E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30324B74286A316B00E2997E /* vpn_project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30324B75286A316B00E2997E /* Shared.xcdatamodel */,
+			);
+			currentVersion = 30324B75286A316B00E2997E /* Shared.xcdatamodel */;
+			path = vpn_project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30324B6F286A316900E2997E /* Project object */;
+}
